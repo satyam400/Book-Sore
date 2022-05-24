@@ -13,7 +13,7 @@ use your cloudinary link and password not mine
 these all are keys which you have in your env file:==
 
 PORT=4000
-DB_URI=mongodb+srv://satyam:qNt2BlVGP6aViKiu@cluster0.pjsnb.mongodb.net/blog?retryWrites=true&w=majority
+DB_URI=
 
 
 STRIPE_API_KEY=
@@ -31,3 +31,6 @@ CLOUDINARY_API_SECRET=
 
 port may be diffrent 
 you can also change JWT_EXPIRE , COOKIE_EXPIRE, and SMPT_PORT
+
+
+the main is DB_URI for using backend so make insure that you have DB_URI in your env file in my case i use mongo atlas database link 
